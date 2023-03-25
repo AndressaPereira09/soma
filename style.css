@@ -1,0 +1,66 @@
+@font-face {
+    font-family: pedagogica;
+    src: url(Cursiva_Pedagogica.ttf);
+}
+
+* {
+    color: #fff;
+}
+
+body {
+    background-image: url(https://images.pexels.com/photos/3616959/pexels-photo-3616959.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center top bottom;
+}
+
+.container {
+    margin: 130px 150px auto 150px;
+    text-align: center;
+}
+
+h1 {
+    font-family: pedagogica;
+    font-size: 50px;
+}
+
+.button {
+    width: 100px;
+}
+
+.button:hover {
+    opacity: 0.6;
+    transform: scale(0.9);
+}
+
+#resp {
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+input {
+    border: solid #fff;
+    margin: 30px 10px;
+    background-color: transparent;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 30px;
+}
+
+footer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 25px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: 0.6;
+}
